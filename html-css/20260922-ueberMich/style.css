@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: #ffffff;
+    
+    box-sizing: border-box;
+    margin: 5rem;
+    margin-top: 2rem;
+
+    font-family: sans-serif;
+
+}
+
+.ueberschrift{
+    color: rgba(62,192,192,1);
+}
+
+footer{
+    color: rgba(255,255,255,0.2);
+    margin-top: auto;
+}
