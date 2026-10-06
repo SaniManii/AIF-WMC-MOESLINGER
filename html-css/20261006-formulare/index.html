@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Möslinger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Kontaktformular</h2>
+    <form action="mailto:moe220094@spengergasse.at?subject=Kontaktformular" method="post" enctype="text/plain">
+        Vorname:
+        <input type="text" name="vorname" placeholder="Max" required>
+        <br><br>
+        Nachname:
+        <input type="text" name="nachname" placeholder="Mustermann" required>
+        <br><br>
+        Alter:
+        <input type="number" name="alter" placeholder="30" required min="16" max="99">
+        <br><br>
+        Geschlecht: <br><br>
+        <input type="radio" name="geschlecht" value="m"> Männlich
+        <input type="radio" name="geschlecht" value="w"> Weiblich
+        <input type="radio" name="geschlecht" value="d"> Divers
+        <input type="radio" name="geschlecht" value="null"> Keine Angabe
+        <br><br>
+        Interesse:
+        <br><br>
+        <input type="checkbox" name="interessen" value="sport"> Sport
+        <br>
+        <input type="checkbox" name="interessen" value="musik"> Musik
+        <br>
+        <input type="checkbox" name="interessen" value="computer"> Computer
+        <br><br>
+        Betriebssystem:
+        <select name="os">
+            <option value="linux">Linux</option>
+            <option value="windows">Windows</option>
+            <option value="macos">macOS</option>
+        </select>
+        <br><br>
+        <textarea name="info" cols="30" rows="10" placeholder="Erzähl etwas von dir!"></textarea>
+        <br><br>
+        <input type="submit" value="Formular abschicken">
+        <br><br>
+        <input type="reset" value="Formular zurücksetzen">
+    </form>
+</body>
+
+</html>
